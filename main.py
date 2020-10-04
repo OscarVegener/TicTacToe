@@ -1,5 +1,4 @@
 def paint():
-    global list_cells
     print("---------")
     print("| " + nested_lst[0][0] + " " + nested_lst[0][1] + " " + nested_lst[0][2] + " |")
     print("| " + nested_lst[1][0] + " " + nested_lst[1][1] + " " + nested_lst[1][2] + " |")
@@ -10,7 +9,7 @@ def paint():
 def get_result():
     global nested_lst
     counter = 0
-    #horizontal x
+    # horizontal x
     for i in range(3):
         counter = 0
         for j in range(3):
@@ -22,7 +21,7 @@ def get_result():
                     return True
             else:
                 counter = 0
-    #vertical x
+    # vertical x
     for i in range(3):
         counter = 0
         for j in range(3):
